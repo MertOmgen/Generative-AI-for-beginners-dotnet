@@ -2,12 +2,13 @@
 
 Bu klasör, `MertOmgen/Generative-AI-for-beginners-dotnet` deposunu Türkçe bir Medium serisine dönüştürmek için hazırlanmış **ayrı repo içeriği** taslağıdır.
 
-Her ders için:
-- ayrı bir `makale.md`
-- ilgili örnek projeleri eşleyen bir `kod-ornekleri.md`
-- Medium yayınına uygun başlık, akış ve sonuç bölümleri
+Yeni yapıda her ders klasörü:
+- bir ana `readme.md`
+- Medium yayını için hazırlanmış `makale.md`
+- ilgili örnekleri eşleyen `kod-ornekleri.md`
+- orijinal dersteki alt konu dosyalarının Türkçe uyarlamalarını
 
-bulunur.
+barındırır.
 
 ## Önerilen klasör yapısı
 
@@ -21,16 +22,14 @@ medium-turkce-seri/
 └── 05-sorumlu-yapay-zeka/
 ```
 
-## Medium serisi yaklaşımı
+## Hazırlama yaklaşımı
 
-1. Her ders bağımsız bir Medium makalesi olarak kurgulandı.
-2. Teknik anlatım korunurken dil Türkçe ve daha akıcı hale getirildi.
-3. Her makalede okuyucunun denemesi için kod örneği ve orijinal kaynak yolu verildi.
-4. Kod örnekleri, ayrı bir repoya taşınabilecek şekilde ders bazında eşlendi.
+1. Orijinal ders akışı korunur.
+2. Her alt ders `.md` dosyası Türkçe ve Medium okunabilirliğine uygun biçimde yeniden yazılır.
+3. Kod örnekleri orijinal depo yolları korunarak eşlenir.
+4. Bu klasör doğrudan ayrı bir repoya taşınabilecek şekilde düzenlenir.
 
 ## Yeni repo için öneri
-
-Bu klasör doğrudan ayrı bir repoya taşınabilir. Önerilen repo adı:
 
 - `generative-ai-for-beginners-dotnet-medium-tr`
 
@@ -43,4 +42,4 @@ Bu klasör doğrudan ayrı bir repoya taşınabilir. Önerilen repo adı:
 
 ## Not
 
-Bu içerik, mevcut eğitim deposundaki ders akışını baz alır. Kod örneği dosyalarında, yeni repoya alınması önerilen klasörler özellikle listelenmiştir.
+Bu içerik, mevcut eğitim deposundaki ders yapısını daha yakından yansıtacak şekilde genişletildi. Özellikle `02-GenerativeAITechniques`, `03-AIPatternsAndApplications` ve `04-AgentsWithMAF` altındaki konu bazlı `.md` dosyaları için Türkçe karşılıklar eklendi.
